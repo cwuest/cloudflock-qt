@@ -1,0 +1,40 @@
+= CloudFlockQt
+
+CloudFlockQt is a graphical frontend to the CloudFlock API
+(https://github.com/cwuest/cloudflock).
+
+== Requirements
+
+CloudFlockQt requires the following libraries:
+  * cloudflock
+  * qtbindings
+
+== Compatibility
+
+The following platforms have been tested and verified to work with
+CloudFlockQt:
+  * ArchLinux, ruby 1.9.3 & ruby 2.1.2
+  * OS X, ruby 1.9.3 & ruby 2.1.2
+  * Windows (Server 2012), ruby 1.9.3 via one-click installer
+
+Since the CloudFlock library avoids system calls to e.g. ssh(1), no further
+special environment should be necessary to use CloudFlockQt.
+
+== Functionality
+
+Feature parity with the CLI utility is not yet achieved.  As of 0.7.2, only
+server profiling is supported.
+
+== Usage
+All functionality will be exposed via the main application.  To launch the
+application and get started, simply launch the 'qtflock' script.
+
+== Contributions
+
+Please pull requests against the master branch, which should represent the
+state of the current gem.  The 'working' branch should be used as a target for
+pull requests when in doubt.
+
+== Copyright
+
+Copyright (c) 2013,2014 Rackspace US, Inc. See COPYING for details.

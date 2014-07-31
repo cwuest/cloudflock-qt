@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'cloudflock-qt/app'
+
+$0 = 'qtflock'
+
+app = Qt::Application.new(ARGV)
+CloudFlockQt::App.new
+app.exec
